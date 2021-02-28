@@ -176,6 +176,7 @@ public class TradeController {
 			return ResponseVO.fail(ErrorCode.PARAM_NOT_NULL_ERROR.getCode(), "useMedicare不能为空");
 		}
 		return ResponseVO.success(isvPayService.tradeNoForOrder(request));
+		
 	}
 
 	/**
